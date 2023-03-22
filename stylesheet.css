@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+}
+
+.container{
+    width: 480px;
+    background-color: #99ca42;
+    color: white; 
+    border-radius: 30px;
+    border-color: #99ca42;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fixed {
+    height: 20px;
+    width: 500px;
+    position: fixed;
+    bottom: 200px;
+    right: 32px;
+    
+   }
+
