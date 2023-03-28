@@ -1,7 +1,8 @@
 .LogoPrincipal{
 
-    width: 230px;
-    height: 200px;
+    width: auto;
+    height: 150px;
+    margin-left: 30px;
     
 }
 
@@ -15,19 +16,20 @@
     display: flex;
     justify-content: center;
     margin-left: 250px;
-    margin-top: 10px;
+    
     
 }
 
 .boxMenu{
-
+    position: absolute;
+    z-index: 3;
     background-color: white;
 }
 
 .menuSuperior{
     display: grid ;
     grid-template-columns: repeat(2,250px) ;
-    grid-column-gap:300px ;
+    grid-column-gap:200px ;
     display: flex;
     justify-content: center;
     
@@ -38,7 +40,7 @@
 
     width: 100%;
     height: 50px;
-    margin-top: 15px;
+    margin-top: 5px;
     background-color: #d5e9b2;
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +91,64 @@ a > svg > .insta:hover{
 
     color: rgb(244, 160, 174);
     transition: 0.6s;
-}     
+}   
+
+p {
+    text-align: center;
+}
+
+.boxvideo{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.video{
+
+    margin-top: 80px;
+    
+}
+
+.boxPrincipal{
+
+    padding-top: 250px;
+   
+}
+
+.textnoticias{
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #99ca42;
+}
+
+.containerMissao{
+    margin-top: 25px;
+    width: 500px;
+    background-color: #99ca42;
+    color: white; 
+    border-radius: 30px;
+    border-color: #99ca42;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fixed {
+    height: 20px;
+    width: 500px;
+    position: fixed;
+    bottom: 200px;
+    right: 32px;
+    
+   }
+
 
 .espacoFooter {
             padding-bottom: 10px;
@@ -112,6 +171,8 @@ a > svg > .insta:hover{
             border-radius: 25px;
             background-color: #99ca42;
             margin: 20px;
+            width: 100%;
+            max-width: 700px;
         }
 
         .textoChamadaBranco {
@@ -124,8 +185,30 @@ a > svg > .insta:hover{
         .figuraPrograma {
             padding: 5px;
             padding-bottom: 20px;
-            max-width: 300px;
+            max-width: 250px;
+            border-radius: 25px;
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+        .containerConteudos{
+            width: 100%;
+            height: 100%;
+            max-width: 700px;
+            margin-right: auto;
+            margin-left: auto;    
+            display: block;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
 
+        .containerfooter{
+            width: 100%;
+            height: 100%;
+            max-width: 700px;
+            margin-right: auto;
+            margin-left: auto;    
+            display: block;
+            
+        }
