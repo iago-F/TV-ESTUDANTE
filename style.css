@@ -1,139 +1,79 @@
-.LogoPrincipal{
-
-    width: auto;
-    height: 150px;
-    margin-left: 30px;
-    
-}
-
-.body{
+.body {
 
     background-color: rgb(204, 192, 192);
 }
 
-.Menu{
-
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
-    
-    
-}
-
-.boxMenu{
-    position: absolute;
-    z-index: 99999999;
-    background-color: white;
-
-}
-
-.menuSuperior{
-    display: grid ;
-    grid-template-columns: repeat(2,250px) ;
-    grid-column-gap:200px ;
-    display: flex;
-    justify-content: center;
-    
-
-}
-
-.menuInferior{
-
+.menuInferior {
     width: 100%;
     height: 50px;
-    margin-top: 5px;
-    background-color: #d5e9b2;
+    background-color: #022859;
     display: flex;
     justify-content: space-evenly;
     padding-top: 10px;
-    border: 1px solid #d5e9b2;    
-    border-radius: 10px;
     padding-right: 50px;
 }
 
+a>span {
 
-.redesocias{
-    margin-top: 100px;
-    width: 45px;
-    height: 45px;
-    color:   #99ca42;
-    padding-right: 10px;
-}
-
-a > span{
-
-    color: black;
+    color: white;
     margin-right: 10px;
     font-weight: 500;
     font-size: 20px;
 }
 
-span:hover{
+span:hover {
     text-decoration: none;
     color: red;
     transition: 0.6s;
-    
+
 }
 
 
-a > svg > .face:hover{
+a>svg>.face:hover {
 
     color: blue;
     transition: 0.6s;
 }
 
-a > svg > .youtube:hover{
+a>svg>.youtube:hover {
 
     color: red;
     transition: 0.6s;
 }
-        
-a > svg > .insta:hover{
+
+a>svg>.insta:hover {
 
     color: rgb(244, 160, 174);
     transition: 0.6s;
-}   
+}
 
 p {
     text-align: center;
 }
 
-.boxvideo{
+h2 {
+    color: #022859;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+
+}
+
+.boxvideo {
 
     display: flex;
     justify-content: center;
-    border-radius: 20px 20px 0 0 ;
+    border-radius: 20px 20px 0 0;
     margin-bottom: 30px;
-   
+
 }
 
-.boxPrincipal{
+.boxPrincipal {
 
-    padding-top: 240px;
-   
+    padding-top: 50px;
+
 }
 
-.textnoticias{
-
-    text-align: center;
-    margin-top: 50px;
-    font-size: 32px;
-    font-weight: 500;
-    color: #99ca42;
-}
-
-.containerVerde{
-    margin: 25px auto 40px auto;
-    max-width: 700px;
-    width: 100%;
-    background-color: #99ca42;
-    color: white; 
-    border-radius: 25px;
-
-    text-align: justify;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px 30px 10px 30px;
-}
 .fixed {
     height: auto;
     max-width: 500px;
@@ -142,7 +82,7 @@ p {
     display: block;
     top: 50%;
     right: -0px;
-   }
+}
 
 .carousel-inner img {
     width: 100%;
@@ -156,63 +96,123 @@ p {
     padding: 10px;
 }
 
+.carousel-caption {
+    display: block;
+    margin: 7px;
+    left: 25% !important;
+    right: 25% !important;
+}
+
+
+.espacoFooter {
+    padding-bottom: 10px;
+}
+
+.espacoFooterIcones {
+    padding-bottom: 25px;
+}
+
+.textoPrincipalFooter {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textoFooter {
+    font-size: 15px;
+}
+
+.textoChamadaBranco {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.figuraPrograma {
+    padding: 5px;
+    padding-bottom: 20px;
+    max-width: 250px;
+    border-radius: 25px 25px 40px 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerConteudos {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.containerfooter {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.menuColapse {
+    border-top: 30px;
+    background-color: #CEDFEE;
+    font-size: medium;
+}
+
+.colDireita {
+    border-left: 1px solid #CEDFEE;
+}
+
+.imgProjetos {
+    height: 160px;
+    width: 160px;
+    margin: 5px auto 5px auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #022859;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #022859;
+}
+
+.carousel-inner iframe {
+    width: 100%;
+    height: 550px;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+    
+}
+
 .carousel-caption{
     display: block;
     margin:7px;
     left: 25%!important;
     right: 25%!important;
 }
-.espacoFooter {
-            padding-bottom: 10px;
-        }
-
-        .espacoFooterIcones {
-            padding-bottom: 25px;
-        }
-
-        .textoPrincipalFooter {
-            font-weight: bold;
-            font-size: 30px;
-        }
-
-        .textoFooter {
-            font-size: 15px;
-        }
-
-        .textoChamadaBranco {
-            font-weight: bold;
-            font-size: 25px;
-            color: white;
-            text-align: center;
-        }
-
-        .figuraPrograma {
-            padding: 5px;
-            padding-bottom: 20px;
-            max-width: 250px;
-            border-radius: 25px 25px 40px 40px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .containerConteudos{
-            width: 100%;
-            height: 100%;
-            max-width: 700px;
-            margin-right: auto;
-            margin-left: auto;    
-            display: block;
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
-        }
-
-        .containerfooter{
-            width: 100%;
-            height: 100%;
-            max-width: 700px;
-            margin-right: auto;
-            margin-left: auto;    
-            display: block;
-            
-        }
