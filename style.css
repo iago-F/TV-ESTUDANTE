@@ -23,7 +23,7 @@ a>span {
 
 span:hover {
     text-decoration: none;
-    color: red;
+    color: green;
     transition: 0.6s;
 
 }
@@ -47,17 +47,17 @@ a>svg>.insta:hover {
     transition: 0.6s;
 }
 
-p {
-    text-align: center;
-}
 
 h2 {
     color: #022859;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: lighter;
+    text-decoration: underline;
+    
 
 }
+
 
 .boxvideo {
 
@@ -83,16 +83,18 @@ h2 {
     top: 50%;
     right: -0px;
 }
-
+.textmenu{
+    display: flex;
+    justify-content: space-evenly;
+}
 .carousel-inner img {
     width: 100%;
     height: 100%;
-    max-width: 700px;
-    max-height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    position: relative;
+    align-self: center;
+    max-height: 640px;
     display: block;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 20px 20px;
     padding: 10px;
 }
 
@@ -119,6 +121,7 @@ h2 {
 
 .textoFooter {
     font-size: 15px;
+    justify-content: left;
 }
 
 .textoChamadaBranco {
@@ -128,26 +131,71 @@ h2 {
     text-align: center;
 }
 
-.figuraPrograma {
-    padding: 5px;
-    padding-bottom: 20px;
-    max-width: 250px;
-    border-radius: 25px 25px 40px 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.ultimosVideos {
+    height: 220px;
+    width: 100%;
+    max-width: 360px;
+
 }
 
+.imgProjetos {
+    height: 160px;
+    width: 160px;
+    margin: 5px auto 5px auto;
+}
+
+.colDireita {
+    border-left: 1px solid #CEDFEE;
+}
+.figuraPrograma{
+    padding-bottom: 0px;
+    width: 250px;
+    max-width: 300px;
+    border: 3px solid #022859;
+    border-radius: 25px 25px 40px 40px;
+    height: 80%;
+}
+
+.container{
+    max-width: 1450px!important;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.tituloInicial{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    padding-top: 15px;
+    
+   
+}
+
+
 .containerConteudos {
-    width: 100%;
-    height: 100%;
-    max-width: 700px;
+    max-height: 100%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    display: block;
-    display: flex;
-    justify-content: center;
     margin-top: 40px;
+}
+.imgsC{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: <2>;
+   
+}
+.containerAzul{
+    position: relative;
+    align-items: center;
+    display:  inline-block;
+    width: 100%;
+    max-height: 500px;
+    background-color:  #022859;
+    color: white; 
+    border-radius: 25px;
 }
 
 .containerfooter {
@@ -157,7 +205,20 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    color:#022859;
+    margin-top: 50px;
 }
+
+.containerInicial{
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: block;
+    color:#022859;
+    background-color: #CEDFEE;
+}
+
 
 .menuColapse {
     border-top: 30px;
@@ -165,17 +226,7 @@ h2 {
     font-size: medium;
 }
 
-.colDireita {
-    border-left: 1px solid #CEDFEE;
-}
 
-.imgProjetos {
-    height: 160px;
-    width: 160px;
-    margin: 5px auto 5px auto;
-}
-
-.carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
@@ -200,9 +251,9 @@ h2 {
 }
 
 .carousel-inner iframe {
-    width: 100%;
+    width: 80%;
     height: 550px;
-    max-width: auto;
+    max-height: 450px;
     margin-right: auto;
     margin-left: auto;
     display: block;
