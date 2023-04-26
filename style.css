@@ -29,6 +29,8 @@ span:hover {
 }
 
 
+
+
 a>svg>.face:hover {
 
     color: blue;
@@ -149,11 +151,19 @@ h2 {
 }
 .figuraPrograma{
     padding-bottom: 0px;
-    width: 250px;
+    width: 260px;
     max-width: 300px;
     border: 3px solid #022859;
     border-radius: 25px 25px 40px 40px;
     height: 80%;
+    
+}
+
+.figuraPrograma:hover{
+
+    transition: opacity .2s linear;
+    opacity:70%;
+
 }
 
 .container{
@@ -183,7 +193,7 @@ h2 {
 .imgsC{
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-grow: <2>;
    
 }
